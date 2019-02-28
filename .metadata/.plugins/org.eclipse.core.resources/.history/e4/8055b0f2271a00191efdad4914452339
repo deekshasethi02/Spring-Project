@@ -1,0 +1,18 @@
+package com.example.pbapp.userDaoTest;
+
+public class Snippet {
+	public void save(User user) ;
+	
+	public void update(User user);
+	
+	public void delete(Integer userId);
+	
+	public void delete(User user);
+	
+	public User findById(Integer userId);
+	
+	public List<User> findAll();
+	
+	List<User> findByProperty(String propertyName, Object propertyValue);
+}
+

@@ -1,0 +1,49 @@
+1545287079552	Copy compilation unit
+1545288447790	Copy compilation unit
+1545288709844	Copy compilation unit
+1545288808641	Copy compilation unit
+1545288818518	Delete element
+1545288835526	Copy compilation unit
+1545290419058	Copy compilation unit
+1545290533729	Copy compilation unit
+1545290554812	Rename type 'TestUserDAO_FindUserOperationByUser'
+1545290975639	Rename package 'com.example.pbapp.configuration'
+1545291012924	Move compilation unit
+1545291114320	Copy compilation unit
+1545293338728	Copy compilation unit
+1545294508144	Delete element
+1545294522223	Copy compilation unit
+1545294641180	Delete element
+1545294688432	Copy compilation unit
+1545295098384	Copy compilation unit
+1545295645356	Copy compilation unit
+1545295660646	Rename type 'TestUserDAO_SaveOperation'
+1545296272822	Copy compilation unit
+1545296291374	Rename type 'TestUserDAO_UpdateOperation'
+1545296706419	Copy compilation unit
+1545296717342	Rename type 'TestUserDAO_DeleteOperationById'
+1545297077496	Copy compilation unit
+1545297094090	Rename type 'TestUserDAO_DeleteOperationByUser'
+1545297238706	Copy compilation unit
+1545297259412	Rename type 'TestUserDAO_FindUserOperationById'
+1545297403584	Copy compilation unit
+1545297420136	Rename type 'TestUserDAO_FindAllUserOperation'
+1545297579958	Copy compilation unit
+1545297595954	Rename type 'TestUserDAO_FindByPropertyOperation'
+1545378382026	Copy compilation unit
+1545386191140	Copy compilation unit
+1545386211494	Rename type 'TestUserDAO_FindAllUserOperation'
+1545386685134	Copy compilation unit
+1545386968371	Copy compilation unit
+1545386980858	Rename type 'TestContactDAO_SaveOperation'
+1545389226685	Copy compilation unit
+1545389342159	Delete element
+1545389352408	Copy compilation unit
+1545389377158	Rename type 'TestContactDAO_UpdateOperation'
+1545389663698	Copy compilation unit
+1545389680309	Rename type 'TestContactDAO_DeleteOperationById'
+1545389905691	Copy compilation unit
+1545389917677	Rename type 'TestContactDAO_DeleteOperationByContact'
+1545391555915	Delete element
+1545397058772	Copy compilation unit
+1545397282300	Copy compilation unit

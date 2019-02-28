@@ -1,0 +1,52 @@
+package com.example.userapp.serviceimpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.userapp.dao.BaseDAO;
+import com.example.userapp.dao.UserDAO;
+import com.example.userapp.domain.User;
+import com.example.userapp.service.UserService;
+
+public class UserServiceImpl extends BaseDAO implements UserService {
+
+	@Autowired
+	private UserDAO userDao;
+	@Override
+	public void save(User user) {
+		userDao.save(user);
+		
+	}
+
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Integer userId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public User findById(Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

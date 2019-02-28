@@ -1,0 +1,65 @@
+package com.example.userapp.daoimpl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
+
+import com.example.userapp.dao.BaseDAO;
+import com.example.userapp.dao.UserDAO;
+import com.example.userapp.domain.User;
+
+public class UserDAOImpl extends BaseDAO implements UserDAO {
+
+	@Override
+	public void save(User user) {
+		
+		String sql = "INSERT INTO users(name) VALUES(:name)";
+		Map<String, Object> params = new HashMap<String, Object>();
+		params.put("name", user.getName());
+		SqlParameterSource paramSource = new MapSqlParameterSource(params);
+		getNamedParameterJdbcTemplate().update(sql, paramSource);
+	
+	}
+
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Integer userId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public User findById(Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> findByProperty(String propertyName, Object propertyValue) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
